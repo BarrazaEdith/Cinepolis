@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cinepolis</title>
+</head>
+<body>
+
+<style>
+
+  
+
+.cartelera {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: stretch; 
+}
+
+.cartel {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  padding: 16px;
+  width: 280px; 
+  display: flex;
+  flex-direction: column;
+}
+
+
+.cart-img {
+  width: 100%;
+  height: 380px;
+  object-fit: cover; 
+  border-radius: 14px;
+  display: block;
+}
+    
+  h1 {
+    margin :0;
+    background-color:#0C0D36;
+    color:#ffffff;
+    font-size:5rem;
+    padding: 20px;
+    text-align: center;
+  }
+
+  h3 {
+    margin :0;
+    background-color:#0C0D36;
+    color:#ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  nav a {
+color:White;
+text-decoration:none;
+  }
+
+
+  nav a:hover {
+    color: #386FD9;
+  }
+
+
+</style>
+<nav style="background-color: #0C0D36; color: white; padding: 1.8rem 2rem; display: flex; align-items: center; gap: 2rem;">
+<a href="#" >Cinepolis</a>
+<a href="#" >Peliculas</a>
+<a href="#" >Alimentos</a>
+<a href="#" >Club Cinepolis</a>
+<a href="#" >Promos</a>
+<a href="#" >Especiales</a>
+<a href="#" >Coleccionables</a>
+<a href="#",link>Coleccionables</a>
+<a href="#Sesión">
+  <img src="https://cdn-icons-png.flaticon.com/512/10985/10985667.png" width="30">
+</a>
+</nav>
+
+
+<header>
+  <h1> Cinepolis</h1>
+</header>
+
+<div style="background: linear-gradient(60deg, #2E368F 0%, #32166E 50%, #2A2D38 100%); padding: 40px; color: white;">
+  <h2>¡Las peliculas con mejor calidad</h2>
+  <p>¡Ahora con descuento!</p>
+</div>
+
+
+<div class="cartelera">
+
+  <div class="cartel">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVP38VyqC4JGBNa03U1W6fF--FqIXD0_meqz7JEsxWPQ&s" alt="Póster Street Fighter" class="cart-img">
+    <h4>El laberinto del fauno</h4>
+    <h4 style="color:#E36034">B15</h4>
+    <h4 style="color: Blue;">Ver sinopsis</h4>
+  </div>
+
+
+  <div class="cartel">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_ydwLOgT8PiApnZDq_bIGGiu2V6bEcJMhg5pkPL0jnA&s=10" alt="Póster Street Fighter" class="cart-img">
+    <h4>La caída de la ballena</h4>
+    <h4 style="color: Orange;">B</h4>
+    <h4 style="color: Blue;">Ver sinopsis</h4>
+  </div>
+
+  <div class="cartel">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQcPJo0kVd1wTVwUM3ajkIprldfZ_MIBwITCJXvuATlg&s=10" alt="Póster Street Fighter" class="cart-img">
+    <h4>La venganza del charro negro</h4>
+    <h4 style="color: green;">A </h4>
+    <h4 style="color: Blue;">Ver sinopsis</h4>
+  </div>
+
+    <div class="cartel">
+    <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQnlAhWbm5fI1zHen9ku-8_a0l2l-pMzFg1PMUFcE4hQ&s=10" alt="Póster Street Fighter" class="cart-img">
+    <h4>Your name</h4>
+    <h4 style="color: Blue;">Ver sinopsis</h4>
+  </div>
+
+  <div class="cartelera">
+
+  <div class="cartel">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUfsMitD-iGGekd1b3A0uGdHYDPaWVhD3O3H8QQvXzzw&s=10" alt="Póster Street Fighter" class="cart-img">
+    <h4>Street Fighter</h4>
+    <h4 style="color: Orange;">B</h4>
+    <h4 style="color: Blue;">Ver sinopsis</h4>
+</div>
+</div>
+</div>
+<center>
+<section id="Sesión">
+ <h4 style="color: #0C0D36;">Inicia o Crea una cuenta en</h4>
+ <h4 style="Color: Orange;">Club Cinepolis</h4>
+  <h4 style="color: #0C0D36;">si ya cuentas con cuenta ingresa tu correo electronico</h4>
+  <input type="email" name="correo">
+  <br><br>
+ <h4 style="color: #0C0D36;">si no cuenta con una cuenta ,ingrese los siguientes datos</h4>
+
+  <form>
+
+  Ingresa tu correo:
+  <input type="email" name="correo">
+  <br><br>
+
+ 
+  Ingresa tu nombre:
+  <input type="text" name="nombre">
+  <br><br>
+
+  Ingresa tu apellido:
+  <input type="text" name="apellido">
+  <br><br>
+
+  <!-- Fecha de nacimiento -->
+  Fecha de nacimiento:
+  <input type="date" name="fecha_nacimiento">
+  <br><br>
+
+Genero :
+  <br>
+  <input type="radio" name="genero" value="Mujer">Mujer <br>
+  <input type="radio" name="genero" value="Hombre"> Hombre <br>
+  <input type="radio" name="genero" value="desconocido">Prefiero no decirlo<br>
+  <br>
+
+  Código postal:
+  <input type="text" name="codigo_postal">
+  <br><br>
+
+  Número celular:
+  <input type="tel" name="celular">
+  <br><br>
+
+  <button type="submit">Enviar</button>
+</form>
+</center>
+
+</section>
+<footer>
+  <h3>
+    Edith Jimena Barraza Reyes<br>
+    5-J<br>
+    Programacion<br>
+  </h3>
+</footer>
+
+</body>
+</html>
